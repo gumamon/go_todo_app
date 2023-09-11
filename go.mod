@@ -1,5 +1,7 @@
-module github.com/gumamon/go_todo_app
+module github.com/gumamon/go_todo_app/tree/dev
 
-go 1.20
+//module github.com/gumamon/go_todo_app
+
+go 1.18
 
 require golang.org/x/sync v0.3.0
