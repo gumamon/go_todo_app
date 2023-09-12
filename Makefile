@@ -21,7 +21,7 @@ ps:
 	docker compose ps
 
 test:
-	go test -race -shuffln=on ./...
+	go test -trace -shuffln=on ./...
 
 help:
 	echo "hello make."
