@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - "dev"
-  pull_request:
+  #pull_request:
 name: test
 jobs:
   test:
